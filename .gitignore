@@ -1,0 +1,11 @@
+/.idea
+*.iml
+tatget
+*/tatget/*
+*/target
+/*/target
+super-pom/src/
+.idea
+.idea/libraries/*
+.idea/*
+*/*.iml
