@@ -4,7 +4,7 @@ tatget
 */tatget/*
 */target
 /*/target
-super-pom/src/
+/utility/target
 .idea
 .idea/libraries/*
 .idea/*

@@ -11,10 +11,10 @@ public class CLogFactory {
     private static CLoggingTracer cLoggingTracer;
 
     static {
-        cLoggingTracer = new CLoggingTracer("yung.demo");
+        cLoggingTracer = new CLoggingTracer("yung.mobile");
     }
 
-    public static CLoggingTracer getCLoggingTracer() {
+    public static CLoggingTracer createCLoggingTracer() {
         return cLoggingTracer;
     }
 }
