@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3383e857-a543-4fd6-8c96-07c0ccb26fe5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/trace/CLogFactory.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/clog/CLogFactory.java" afterPath="$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/clog/CLogFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/entities/LoggerFactory.java" afterPath="$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/entities/LoggerFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/listenter/CLoggerListenerImpl.java" afterPath="$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/listenter/CLoggerListenerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/trace/CLoggingLogger.java" afterPath="$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/trace/CLoggingLogger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/clog/CLog.java" afterPath="$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/clog/CLog.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,14 +22,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CLoggerListenerImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CLoggerListenerImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/listenter/CLoggerListenerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1675">
-              <caret line="27" column="67" lean-forward="true" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+            <state relative-caret-position="450">
+              <caret line="90" column="27" lean-forward="true" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CLog.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/clog/CLog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,18 +87,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="341">
               <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonTracer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/trace/CommonTracer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,7 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/manage/LoggerContext.java" />
         <option value="$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/common/PropertyConfigManager.java" />
         <option value="$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/common/PropertyCommon.java" />
         <option value="$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/common/IProperty.java" />
@@ -225,6 +216,7 @@
         <option value="$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/entities/LoggerFactory.java" />
         <option value="$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/clog/CLogFactory.java" />
         <option value="$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/listenter/CLoggerListenerImpl.java" />
+        <option value="$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/clog/CLog.java" />
       </list>
     </option>
   </component>
@@ -855,7 +847,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DemoTest.test">
+  <component name="RunManager" selected="Application.TestMain">
     <configuration default="false" name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1343,8 +1335,8 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DemoTest.test" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestMain" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TestMain" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DemoTest.test" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.DemoTest.test1" />
         <item index="3" class="java.lang.String" itemvalue="Application.Main" />
       </list>
@@ -1401,7 +1393,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88991000" />
+    <option name="totallyTimeSpent" value="89263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -1945,14 +1937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/clog/CLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/entities/LoggerSourceEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -2124,11 +2108,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/listenter/CLoggerListenerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1675">
-          <caret line="27" column="67" lean-forward="true" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+        <state relative-caret-position="450">
+          <caret line="90" column="27" lean-forward="true" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utility/src/main/java/com/yung/auto/framework/utility/clog/CLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
