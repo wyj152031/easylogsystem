@@ -1,6 +1,9 @@
 package com.yung.auto.framework.data;
 
 import com.yung.auto.framework.cache.local.cacheinit.CacheInitService;
+import com.yung.auto.framework.data.model.Student;
+import com.yung.auto.framework.utility.agent.LogManager;
+import com.yung.auto.framework.utility.trace.ILog;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,13 +17,15 @@ import java.util.concurrent.CountDownLatch;
  */
 @Service
 public class BasicDataCacheInitService implements CacheInitService {
+    ILog logger = LogManager.getLogger(BasicDataCacheInitService.class);
 
     @Autowired
     private StudentCacheRepositoryDemo studentCacheRepositoryDemo;
 
     @Override
     public boolean init() {
-        studentCacheRepositoryDemo.getData("1");
+        Student st = studentCacheRepositoryDemo.getData("1");
+        logger.info("Demo 缓存数据：" + st.toString());
         return true;
     }
 

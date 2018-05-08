@@ -13,16 +13,16 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * @date 2018/5/8.
  */
 @Component
-public class CacheInitCore implements ApplicationListener<ApplicationEvent>{
+public class CacheInitCore implements ApplicationListener<ApplicationEvent> {
 
     @Autowired(required = false)
     private List<CacheInitService> cacheInitServices;
-    private AtomicBoolean isStarted=new AtomicBoolean(false);
+    private AtomicBoolean isStarted = new AtomicBoolean(false);
 
     @Override
     public void onApplicationEvent(ApplicationEvent applicationEvent) {
-        if(!isStarted.get()&&cacheInitServices!=null){
-            for(CacheInitService c:cacheInitServices){
+        if (!isStarted.get() && cacheInitServices != null) {
+            for (CacheInitService c : cacheInitServices) {
                 c.init();
             }
             isStarted.set(true);
