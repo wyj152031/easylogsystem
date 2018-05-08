@@ -1,5 +1,8 @@
 package com.yung.auto.framework.data;
 
+import com.google.common.cache.Cache;
+import com.yung.auto.framework.cache.local.LavCacheCell;
+import com.yung.auto.framework.cache.local.LavCacheManager;
 import com.yung.auto.framework.cache.local.cacheinit.CacheInitService;
 import com.yung.auto.framework.data.model.Student;
 import com.yung.auto.framework.utility.agent.LogManager;
@@ -22,10 +25,20 @@ public class BasicDataCacheInitService implements CacheInitService {
     @Autowired
     private StudentCacheRepositoryDemo studentCacheRepositoryDemo;
 
+
     @Override
     public boolean init() {
         Student st = studentCacheRepositoryDemo.getData("1");
         logger.info("Demo 缓存数据：" + st.toString());
+        for (String key : LavCacheManager.getCaches().keySet()) {
+            LavCacheCell cacheCell = LavCacheManager.getCaches().get(key);
+            Cache cache = (Cache) cacheCell.getCache();
+            cache.getIfPresent("1");
+            cache.getIfPresent("1");
+            cache.getIfPresent("1");
+            cache.getIfPresent("1");
+            logger.info("Cache 统计次数：" + cache.stats().toString());
+        }
         return true;
     }
 
