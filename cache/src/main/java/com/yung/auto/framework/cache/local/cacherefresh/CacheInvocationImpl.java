@@ -17,8 +17,8 @@ public class CacheInvocationImpl implements CacheInvocation {
     private Object target;
     private MethodSignature signature;
 
-    public CacheInvocationImpl(String[] cacheNames,Object key, Object target, MethodSignature signature, Object[] args) {
-        this.cacheNames=cacheNames;
+    public CacheInvocationImpl(String[] cacheNames, Object key, Object target, MethodSignature signature, Object[] args) {
+        this.cacheNames = cacheNames;
         this.key = key;
         this.target = target;
         this.args = args;
@@ -27,6 +27,7 @@ public class CacheInvocationImpl implements CacheInvocation {
 
     /**
      * 调用切点方法
+     *
      * @param key
      * @return
      * @throws InvocationTargetException

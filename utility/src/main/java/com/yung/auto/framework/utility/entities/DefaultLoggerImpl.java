@@ -1,6 +1,6 @@
 package com.yung.auto.framework.utility.entities;
 
-import com.yung.auto.framework.utility.common.CollectionUtils;
+import com.yung.auto.framework.utility.collection.CollectionUtils;
 import com.yung.auto.framework.utility.common.Strings;
 import com.yung.auto.framework.utility.listenter.ILoggerListener;
 import com.yung.auto.framework.utility.formate.ILoggerFormat;

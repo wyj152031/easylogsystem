@@ -4,19 +4,24 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.yun.auto.framework</groupId>
+    <groupId>com.yung.auto.framework</groupId>
     <artifactId>framework</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
     <modules>
         <module>utility</module>
         <module>cache</module>
+        <module>data</module>
+        <module>demo</module>
     </modules>
 
     <properties>
         <spring.boot.version>1.5.8.RELEASE</spring.boot.version>
         <spring.version>4.3.4.RELEASE</spring.version>
         <guava.cache.version>20.0</guava.cache.version>
+        <tomcat.embed.version>7.0.73</tomcat.embed.version>
+        <servlet.api.version>3.1.0</servlet.api.version>
+        <jackson.version>2.8.10</jackson.version>
     </properties>
 
     <dependencyManagement>
@@ -36,8 +41,36 @@
         </dependencies>
     </dependencyManagement>
 
-
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.apache.tomcat</groupId>-->
+            <!--<artifactId>tomcat-juli</artifactId>-->
+            <!--<version>${tomcat.embed.version}</version>-->
+        <!--</dependency>-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>${servlet.api.version}</version>
+            <scope>provided</scope>
+        </dependency>
         <dependency>
             <groupId>commons-logging</groupId>
             <artifactId>commons-logging</artifactId>

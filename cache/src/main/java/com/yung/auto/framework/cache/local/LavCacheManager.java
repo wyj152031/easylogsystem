@@ -14,7 +14,7 @@ public class LavCacheManager {
 
     public static boolean add(LavCacheCell entity) {
         boolean flag = false;
-        if (StringUtils.hasText(entity.getName()) && caches.containsKey(entity.getName())) {
+        if (StringUtils.hasText(entity.getName()) && !caches.containsKey(entity.getName())) {
             caches.put(entity.getName(), entity);
             flag = true;
         }

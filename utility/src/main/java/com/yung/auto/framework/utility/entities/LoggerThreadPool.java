@@ -1,8 +1,7 @@
 package com.yung.auto.framework.utility.entities;
 
 import com.yung.auto.framework.utility.clog.CLog;
-import com.yung.auto.framework.utility.common.ClogPropertyImpl;
-import com.yung.auto.framework.utility.common.CollectionUtils;
+import com.yung.auto.framework.utility.collection.CollectionUtils;
 import com.yung.auto.framework.utility.common.PropertyManager;
 import com.yung.auto.framework.utility.entities.LogEntry;
 import com.yung.auto.framework.utility.formate.ILoggerFormat;

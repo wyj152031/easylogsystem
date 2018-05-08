@@ -1,0 +1,10 @@
+// 清理缓存的方式：
+
+查看缓存 列表（不加cachename代表查看全部缓存列表）
+1. http://127.0.0.1:8080/cache/listkeys.do?cachename=LOCAL_CONFIG_30M&host=8080
+
+查看对应key值下的缓存数据
+1.http://127.0.0.1:8080/cache/view.do?cachename=LOCAL_CONFIG_30M&key=1&host=8080
+
+更新缓存
+1.http://127.0.0.1:8080/cache/refresh.do?cachename=LOCAL_CONFIG_30M&key=1&host=8080

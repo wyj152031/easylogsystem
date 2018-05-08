@@ -2,6 +2,10 @@ package com.yung.auto.framework.cache.local.config;
 
 import com.yung.auto.framework.cache.local.GuavaCacheFactory;
 import com.yung.auto.framework.cache.local.GuavaCacheManager;
+import com.yung.auto.framework.cache.local.cacheinit.CacheInitServiceHolder;
+import com.yung.auto.framework.cache.local.cacherefresh.CacheCacheableSignatureAdvice;
+import com.yung.auto.framework.cache.local.cacherefresh.CacheSignatureRegistery;
+import com.yung.auto.framework.cache.local.event.LavCacheEventSubject;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.cache.Cache;
 import org.springframework.cache.annotation.EnableCaching;
@@ -36,7 +40,7 @@ public class LocalCacheConfiguration {
 
     @Bean
     @Primary
-    public GuavaCacheManager cacheManager() {
+    public GuavaCacheManager guavaCacheManagerBean() {
         GuavaCacheManager cacheManager = new GuavaCacheManager();
         Collection<Cache> caches = new HashSet<>();
         caches.addAll(basicGuavaFactoryBean().getCaches());
@@ -65,6 +69,26 @@ public class LocalCacheConfiguration {
             }
         }
         return factories;
+    }
+
+    @Bean
+    public CacheCacheableSignatureAdvice cacheCacheableSignatureAdvice() {
+        return new CacheCacheableSignatureAdvice();
+    }
+
+    @Bean
+    public CacheSignatureRegistery cacheSignatureRegistery() {
+        return new CacheSignatureRegistery();
+    }
+
+    @Bean
+    public CacheInitServiceHolder cacheInitServiceHolder() {
+        return new CacheInitServiceHolder();
+    }
+
+    @Bean
+    public LavCacheEventSubject lavCacheEventSubject() {
+        return new LavCacheEventSubject();
     }
 
 }

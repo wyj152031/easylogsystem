@@ -38,6 +38,7 @@ public class GuavaCacheFactory {
                 result.add(createGuavaCache(name));
             }
         }
+        this.caches = result;
         return result;
     }
 
