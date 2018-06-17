@@ -8,9 +8,6 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
-import java.awt.*;
-import java.net.URI;
-
 /**
  * @author wangyujing
  * @date 2018/5/8.
@@ -34,7 +31,7 @@ public class Application extends SpringBootServletInitializer {
 
 //        int port = context.getEnvironment().getProperty("server.port", int.class);
 //        System.setProperty("java.awt.headless", "false");
-//        Desktop.getDesktop().browse(new URI("http://127.0.0.1:" + port + "/api"));
+//        Desktop.getDesktop().browse(new URI("http://127.0.0.1:8080/"));
     }
 
 
