@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class RedisCacheMethod {
 
-    @Cacheable(value = "Redis#30#50", key = "#key", cacheManager = "redisCacheManager")
+    @Cacheable(value = "Redis#120#90", key = "#key", cacheManager = "redisCacheManager")
     public Person getPersonObject(String key) {
         Person p = new Person(key, "WangYung" + key, 18);
         return p;

@@ -45,6 +45,11 @@ public class PersonDao {
         return  valops.get("1");
     }
 
+    //获取对象
+    public Object keys(){
+        return  redisTemplate.keys("*");
+    }
+
     public void setValops(ValueOperations<Object, Object> valops) {
         this.valops = valops;
     }

@@ -9,6 +9,19 @@
 更新缓存
 1.http://127.0.0.1:8080/cache/refresh.do?cachename=LOCAL_CONFIG_30M&key=1&host=8080
 
+// Redis
+1. Redis缓存 与Guava Caceh同时 使用时 需在Cacheable上指定CacheManager,否则将会使用默认的CacheManager
+2. Redis本地 设置键值对 类似于数据库的赋值 详例见PersonDao 类的实现方式，可直接设置键的过期时间
+3. Redis采用SpringCache的实现方式，仅能对所有的键设置统一过期时间，需自己扩展分别对键设置过期时间
+4 .通过扩展RedisCacheManager 实现 CacheName上设置key的过期时间和刷新时间
+
+1）设置 缓存数据到Redis中 （结合SpringCache使用方式）
+   http://127.0.0.1:8080/redisCacheKey？key=***
+2）直接设置缓存数据到Redis中
+    http://127.0.0.1:8080/set
+3）直接获取Redis中数据
+     http://127.0.0.1:8080/getStr  |  http://127.0.0.1:8080/getPerson
+
 
 注意：
 题外话：在使用内存缓存时，切记拿到缓存值之后不要在业务代码中对缓存直接做修改，因为此时拿到的对象引用是指向缓存真正的

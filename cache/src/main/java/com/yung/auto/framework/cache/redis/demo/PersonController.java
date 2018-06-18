@@ -46,4 +46,9 @@ public class PersonController {
         return personDao.getPerson();
     }
 
+    @RequestMapping("/keys")
+    public Object keys(){
+        return personDao.keys();
+    }
+
 }

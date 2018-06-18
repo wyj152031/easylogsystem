@@ -3,6 +3,7 @@ package com.yung.auto.framework.cache.redis.config;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.yung.auto.framework.cache.redis.customiz.CustomizedRedisCacheManager;
 import com.yung.auto.framework.utility.collection.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.CacheManager;
@@ -27,7 +28,8 @@ import java.lang.reflect.Method;
  */
 @Configuration
 @EnableCaching
-public class RedisConfig extends CachingConfigurerSupport {
+//public class RedisConfig extends CachingConfigurerSupport {
+public class RedisConfig {
     @Autowired
     RedisConfigProperties redisConfigProperties;
 
@@ -39,9 +41,9 @@ public class RedisConfig extends CachingConfigurerSupport {
                 StringBuilder sb = new StringBuilder();
 //                sb.append(target.getClass().getName());
                 sb.append(method.getName());
-                if(CollectionUtils.hasElement(params)) {
+                if (CollectionUtils.hasElement(params)) {
                     for (Object obj : params) {
-                        if(obj != null) {
+                        if (obj != null) {
                             sb.append(obj.toString());
                         }
                     }
@@ -77,13 +79,20 @@ public class RedisConfig extends CachingConfigurerSupport {
         return jedisConnectionFactory;
     }
 
-    @SuppressWarnings("rawtypes")
+//    @SuppressWarnings("rawtypes")
     @Bean
+//    @Primary
     public CacheManager redisCacheManager(RedisTemplate redisTemplate) {
-        RedisCacheManager rcm = new RedisCacheManager(redisTemplate);
+//        RedisCacheManager redisCacheManager = new RedisCacheManager(redisTemplate);
+        RedisCacheManager redisCacheManager = new CustomizedRedisCacheManager(redisTemplate);
+        // 开启使用缓存名称最为key前缀
+        redisCacheManager.setUsePrefix(true);
+        //这里可以设置一个默认的过期时间 单位是秒
+        redisCacheManager.setDefaultExpiration(600);
+
         //设置缓存过期时间
-//        rcm.setDefaultExpiration(60);//秒
-        return rcm;
+//        redisCacheManager.setDefaultExpiration(60);//秒
+        return redisCacheManager;
     }
 
     @Bean
