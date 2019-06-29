@@ -1,10 +1,7 @@
 package com.yung.auto.framework.cache.redis.demo;
 
-import com.yung.auto.framework.cache.CacheType;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.Cacheable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -23,15 +20,15 @@ public class PersonController {
     private RedisCacheMethod redisCacheMethod;
 
     @RequestMapping("/set")
-    public void set(){
-        Person p = new Person("1", "WangYung", 26);
+    public void set() {
+        Person p = new Person("1", "WangYung1", 26);
 
         personDao.save(p);
         personDao.stringRedisTemplateDemo();
     }
 
     @RequestMapping("/getStr")
-    public String getStr(){
+    public String getStr() {
         return personDao.getString();
     }
 
@@ -42,12 +39,12 @@ public class PersonController {
     }
 
     @RequestMapping("/getPerson")
-    public Object getPerson(){
+    public Object getPerson() {
         return personDao.getPerson();
     }
 
     @RequestMapping("/keys")
-    public Object keys(){
+    public Object keys() {
         return personDao.keys();
     }
 

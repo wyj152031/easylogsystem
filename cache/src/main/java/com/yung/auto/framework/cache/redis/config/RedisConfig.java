@@ -28,8 +28,8 @@ import java.lang.reflect.Method;
  */
 @Configuration
 @EnableCaching
-//public class RedisConfig extends CachingConfigurerSupport {
-public class RedisConfig {
+public class RedisConfig extends CachingConfigurerSupport {
+//public class RedisConfig {
     @Autowired
     RedisConfigProperties redisConfigProperties;
 

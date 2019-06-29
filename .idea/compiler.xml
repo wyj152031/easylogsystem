@@ -12,7 +12,7 @@
         <module name="utility" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
+    <bytecodeTargetLevel>
       <module name="cache" target="1.8" />
       <module name="data" target="1.8" />
       <module name="demo" target="1.8" />

@@ -9,7 +9,6 @@ import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.cache.Cache;
 import org.springframework.data.redis.cache.RedisCacheManager;
 import org.springframework.data.redis.core.RedisOperations;
-import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 import java.util.Collection;
@@ -69,7 +68,8 @@ public class CustomizedRedisCacheManager extends RedisCacheManager {
 
     public RedisCacheManager getInstance() {
         if (redisCacheManager == null) {
-            redisCacheManager =  SpringContextUtils.getBean(RedisCacheManager.class);;
+            redisCacheManager = SpringContextUtils.getBean(RedisCacheManager.class);
+            ;
         }
         return redisCacheManager;
     }
