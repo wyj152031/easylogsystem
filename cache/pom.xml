@@ -31,7 +31,7 @@
         <dependency>
             <groupId>com.yung.auto.framework</groupId>
             <artifactId>utility</artifactId>
-            <version>1.0.0</version>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 
