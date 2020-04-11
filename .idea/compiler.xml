@@ -7,16 +7,31 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cache" />
+        <module name="common" />
+        <module name="context" />
         <module name="data" />
         <module name="demo" />
+        <module name="foundation" />
+        <module name="kafka-consumer" />
+        <module name="log-metric" />
+        <module name="log-support" />
         <module name="utility" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cache" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="context" target="1.8" />
       <module name="data" target="1.8" />
       <module name="demo" target="1.8" />
+      <module name="foundation" target="1.8" />
       <module name="framework" target="1.8" />
+      <module name="kafka" target="1.8" />
+      <module name="kafka-consumer" target="1.8" />
+      <module name="log" target="1.8" />
+      <module name="log-common" target="1.8" />
+      <module name="log-metric" target="1.8" />
+      <module name="log-support" target="1.8" />
       <module name="utility" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -64,7 +64,7 @@ public class CacheOperationExpressionEvaluator extends CachedExpressionEvaluator
      * @param targetClass the target class
      * @param result the return value (can be {@code null}) or
      * {@link #NO_RESULT} if there is no return at this time
-     * @return the evaluation context
+     * @return the evaluation log
      */
     public EvaluationContext createEvaluationContext(Collection<? extends Cache> caches,
                                                      Method method, Object[] args, Object target, Class<?> targetClass, Object result,

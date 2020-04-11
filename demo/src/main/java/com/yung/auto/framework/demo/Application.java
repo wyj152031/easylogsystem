@@ -29,7 +29,7 @@ public class Application extends SpringBootServletInitializer {
     public static void main(String[] args) throws Exception {
         ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
 
-//        int port = context.getEnvironment().getProperty("server.port", int.class);
+//        int port = log.getEnvironment().getProperty("server.port", int.class);
 //        System.setProperty("java.awt.headless", "false");
 //        Desktop.getDesktop().browse(new URI("http://127.0.0.1:8080/"));
     }

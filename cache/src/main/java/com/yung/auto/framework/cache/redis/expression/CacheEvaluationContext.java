@@ -23,7 +23,7 @@ public class CacheEvaluationContext extends MethodBasedEvaluationContext {
 
 
     /**
-     * Add the specified variable name as unavailable for that context.
+     * Add the specified variable name as unavailable for that log.
      * Any expression trying to access this variable should lead to an exception.
      * <p>This permits the validation of expressions that could potentially a
      * variable even when such variable isn't available yet. Any expression

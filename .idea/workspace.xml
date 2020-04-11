@@ -1,28 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="021259b2-c6a0-4fc9-90f1-1badd4f7f8e8" name="Default" comment="">
+    <list default="true" id="e415615d-049a-49c3-a915-8bad626e3c5d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/java/com/yung/auto/framework/common/NamedThreadFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/java/com/yung/auto/framework/common/constants/DateConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/java/com/yung/auto/framework/common/constants/ServiceConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/java/com/yung/auto/framework/common/constants/ServiceType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/java/com/yung/auto/framework/common/utils/CalculateUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/java/com/yung/auto/framework/common/utils/CollectionUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/java/com/yung/auto/framework/common/utils/DateUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/java/com/yung/auto/framework/common/utils/PreconditionUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/context/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/context/src/main/java/com/yung/auto/framework/context/DefaultWorkContext.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/context/src/main/java/com/yung/auto/framework/context/WorkContext.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/context/src/main/java/com/yung/auto/framework/context/WorkContextAutoConfigure.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/context/src/main/java/com/yung/auto/framework/context/WorkContextFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/context/src/main/resources/META-INF/spring.factories" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foundation/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/AppPropertiesProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/Foundation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/constants/AppPropertiesConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/constants/FrameWorkConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/DefaultProviderManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/NullProviderManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/ProviderManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/ServiceBootstrap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/env/EnvType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/host/IPUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/parser/ParserException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/parser/Parsers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/provider/AbstractProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/provider/ApplicationProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/provider/DefaultApplicationProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/provider/NullProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/provider/Provider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foundation/src/main/resources/META-INF/services/com.yung.auto.framework.foundation.spi.ProviderManager" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kafka/kafka-consumer/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kafka/kafka-consumer/src/main/java/com/yung/auto/framework/kafka/consumer/KafkaConsumerInitializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kafka/kafka-consumer/src/main/java/com/yung/auto/framework/kafka/consumer/MessageEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kafka/kafka-consumer/src/main/java/com/yung/auto/framework/kafka/consumer/MessageListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kafka/kafka-consumer/src/main/java/com/yung/auto/framework/kafka/consumer/TopicConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kafka/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/CycleTimeInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/MetricAggregateKey.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/MetricAggregateManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/MetricDispatchQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/MetricEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/MetricsConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/collector/Collector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/collector/CollectorEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/collector/CollectorFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/collector/OpentsdbCollector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/collector/generate/AllMetricGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/collector/generate/MetricGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/collector/generate/MetricGeneratorFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/collector/generate/ValueMetricGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/dispatch/MetricAggregateDispatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/group/MetricAggregateGroup.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/unit/Countable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/unit/CountableBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/unit/MetricCountable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/client/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/client/HttpClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/client/HttpClientImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/client/OpenTsDbClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/client/PoolingHttpClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/model/Metric.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/model/MetricBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/model/response/ErrorDetail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/model/response/Response.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/model/response/SimpleHttpResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/utils/CountableKeyUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-support/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/executor/LoggerThreadPool.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/executor/MetricThreadPool.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/listener/DefaultLoggerListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/listener/LoggerListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/listener/LoggerListenerFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/listener/MetricLoggerListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/Logger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/LoggerConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/LoggerFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/context/LoggerContext.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/entity/DefaultLoggerEventImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/entity/EmptyLoggerEventImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/entity/LoggerEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/enums/LoggerEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/enums/LoggerLevelEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/enums/LoggerSourceEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/formate/DefaultLoggerFormat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/formate/LoggerFormat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/utils/LoggerUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/pom.xml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/wangyujing.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/framework.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/utility/utility.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utility/target/classes/com/yung/auto/framework/utility/common/DateStyle.class" afterPath="$PROJECT_DIR$/utility/target/classes/com/yung/auto/framework/utility/common/DateStyle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utility/target/classes/com/yung/auto/framework/utility/common/PropertyFactory.class" afterPath="$PROJECT_DIR$/utility/target/classes/com/yung/auto/framework/utility/common/PropertyFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utility/target/classes/com/yung/auto/framework/utility/file/txtfille/FileReaderTxt.class" afterPath="$PROJECT_DIR$/utility/target/classes/com/yung/auto/framework/utility/file/txtfille/FileReaderTxt.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/src/main/java/com/yung/auto/framework/cache/redis/config/RedisConfig.java" afterPath="$PROJECT_DIR$/cache/src/main/java/com/yung/auto/framework/cache/redis/config/RedisConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/src/main/java/com/yung/auto/framework/cache/redis/customiz/CustomizedRedisCacheManager.java" afterPath="$PROJECT_DIR$/cache/src/main/java/com/yung/auto/framework/cache/redis/customiz/CustomizedRedisCacheManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/src/main/java/com/yung/auto/framework/cache/redis/demo/PersonController.java" afterPath="$PROJECT_DIR$/cache/src/main/java/com/yung/auto/framework/cache/redis/demo/PersonController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/pom.xml" afterPath="$PROJECT_DIR$/cache/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/src/main/java/com/yung/auto/framework/cache/redis/expression/CacheEvaluationContext.java" afterPath="$PROJECT_DIR$/cache/src/main/java/com/yung/auto/framework/cache/redis/expression/CacheEvaluationContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/src/main/java/com/yung/auto/framework/cache/redis/expression/CacheOperationExpressionEvaluator.java" afterPath="$PROJECT_DIR$/cache/src/main/java/com/yung/auto/framework/cache/redis/expression/CacheOperationExpressionEvaluator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/pom.xml" afterPath="$PROJECT_DIR$/data/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/pom.xml" afterPath="$PROJECT_DIR$/demo/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/main/java/com/yung/auto/framework/demo/Application.java" afterPath="$PROJECT_DIR$/demo/src/main/java/com/yung/auto/framework/demo/Application.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utility/pom.xml" afterPath="$PROJECT_DIR$/utility/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/demo/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/data/target/" />
     <ignored path="$PROJECT_DIR$/utility/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/cache/target/" />
+    <ignored path="$PROJECT_DIR$/context/target/" />
+    <ignored path="$PROJECT_DIR$/log/target/" />
+    <ignored path="$PROJECT_DIR$/log/log-metric/target/" />
+    <ignored path="$PROJECT_DIR$/log/log-support/target/" />
+    <ignored path="$PROJECT_DIR$/log/log-common/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
+    <ignored path="$PROJECT_DIR$/foundation/target/" />
+    <ignored path="$PROJECT_DIR$/kafka/target/" />
+    <ignored path="$PROJECT_DIR$/kafka/kafka-consumer/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,97 +141,121 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="47" selection-end-column="21" />
+            <state relative-caret-position="935">
+              <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="framework.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MetricAggregateKey.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/MetricAggregateKey.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-989">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MetricAggregateManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/MetricAggregateManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="744">
+              <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="837">
+              <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/context/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="682">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cache/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1077">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/yung/auto/framework/demo/DemoServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="62">
+                <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="redis.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cache/src/main/resources/META-INF/redis.properties">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring.factories" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cache/src/main/resources/META-INF/spring.factories">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clog.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utility/src/main/resources/META-INF/clog.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/yung/auto/framework/demo/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="redis.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/resources/redis.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="620">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -136,7 +268,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/collector/CollectorFactory.java" />
+        <option value="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/collector/Collector.java" />
+        <option value="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/collector/generate/MetricGenerator.java" />
+        <option value="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/collector/generate/AllMetricGenerator.java" />
+        <option value="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/collector/generate/MetricGeneratorFactory.java" />
+        <option value="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/collector/generate/ValueMetricGenerator.java" />
+        <option value="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/MetricAggregateManager.java" />
+        <option value="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/AppPropertiesConstants.java" />
+        <option value="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/ServiceBootstrap.java" />
+        <option value="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/provider/Provider.java" />
+        <option value="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/env/EnvType.java" />
+        <option value="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/parser/ParserException.java" />
+        <option value="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/parser/Parsers.java" />
+        <option value="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/provider/AbstractProvider.java" />
+        <option value="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/provider/ApplicationProvider.java" />
+        <option value="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/ProviderManager.java" />
+        <option value="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/provider/NullProvider.java" />
+        <option value="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/FrameWorkConstants.java" />
+        <option value="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/constants/AppPropertiesConstants.java" />
+        <option value="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/constants/FrameWorkConstants.java" />
+        <option value="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/DefaultProviderManager.java" />
+        <option value="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/NullProviderManager.java" />
+        <option value="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/Foundation.java" />
+        <option value="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/provider/DefaultApplicationProvider.java" />
+        <option value="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/spi/host/IPUtil.java" />
+        <option value="$PROJECT_DIR$/foundation/src/main/java/com/yung/auto/framework/foundation/AppPropertiesProvider.java" />
+        <option value="$PROJECT_DIR$/log/pom.xml" />
+        <option value="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/client/HttpClientImpl.java" />
+        <option value="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/MetricDispatchQueue.java" />
+        <option value="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/CycleTimeInfo.java" />
+        <option value="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/dispatch/MetricAggregateDispatcher.java" />
+        <option value="$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/collector/OpentsdbCollector.java" />
+        <option value="$PROJECT_DIR$/foundation/src/main/resources/META-INF/services/com.htsc.tech.framework.foundation.spi.ProviderManager" />
+        <option value="$PROJECT_DIR$/foundation/src/main/resources/META-INF/services/com.yung.auto.framework.foundation.spi.ProviderManager" />
+        <option value="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/executor/MetricThreadPool.java" />
+        <option value="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/entity/LoggerEvent.java" />
+        <option value="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/listener/DefaultLoggerListener.java" />
+        <option value="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/listener/MetricLoggerListener.java" />
+        <option value="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/entity/EmptyLoggerEventImpl.java" />
+        <option value="$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/LoggerConstants.java" />
+        <option value="$PROJECT_DIR$/kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka/kafka-consumer/src/main/java/com/yung/auto/framework/kafka/consumer/MessageEvent.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-consumer/src/main/java/com/yung/auto/framework/kafka/consumer/MessageListener.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-consumer/src/main/java/com/yung/auto/framework/kafka/consumer/TopicConstants.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-consumer/src/main/java/com/yung/auto/framework/kafka/consumer/KafkaConsumerInitializer.java" />
+        <option value="$PROJECT_DIR$/log/log-metric/pom.xml" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/context/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -146,32 +328,40 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="MavenProjectNavigator">
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-16" />
+    <option name="y" value="-16" />
+    <option name="width" value="3872" />
+    <option name="height" value="2092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages ProjectPane="false" />
-      <showMembers ProjectPane="false" />
+      <flattenPackages />
+      <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages ProjectPane="true" />
-      <abbreviatePackageNames ProjectPane="false" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource ProjectPane="false" />
+      <autoscrollFromSource />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -183,107 +373,28 @@
               <option name="myItemId" value="easylogsystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utility" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easylogsystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easylogsystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easylogsystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easylogsystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easylogsystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
-        <option name="show-excluded-files" value="false" />
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/log" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\personproj\easylogsystem\log\log-support\src\main\java\com\yung\auto\framework\log" />
+      <recent name="G:\personproj\easylogsystem\log\log-support\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\personproj\easylogsystem\log\log-support" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -297,27 +408,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Application">
-    <configuration default="false" name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.yung.auto.framework.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yung.auto.framework.demo.Application" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="demo" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -555,7 +646,6 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -625,7 +715,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
+      <module name="demo" />
       <envs />
       <method />
     </configuration>
@@ -639,6 +729,28 @@
       <option name="workingDirectory" />
       <option name="isAlternativeJrePathEnabled" value="false" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -684,12 +796,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -705,66 +811,67 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="false" name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yung.auto.framework.demo.Application" />
+      <module name="demo" />
+      <envs />
+      <method />
+    </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.Application" />
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.Application" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Application" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="021259b2-c6a0-4fc9-90f1-1badd4f7f8e8" name="Default" comment="" />
-      <created>1546616827006</created>
+      <changelist id="e415615d-049a-49c3-a915-8bad626e3c5d" name="Default" comment="" />
+      <created>1586593336733</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1546616827006</updated>
-      <workItem from="1546616828343" duration="184000" />
-      <workItem from="1546617628839" duration="407000" />
+      <updated>1586593336733</updated>
+      <workItem from="1586593340442" duration="12875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="591000" />
+    <option name="totallyTimeSpent" value="12875000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13733906" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20708154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18135683" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35950854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -782,7 +889,92 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/pom.xml">
+    <entry file="file://$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/model/Metric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#675#691#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/model/MetricBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/model/response/ErrorDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/model/response/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foundation/src/main/resources/META-INF/services/com.yung.auto.framework.foundation.spi.ProviderManager">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/context/src/main/java/com/yung/auto/framework/context/DefaultWorkContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/context/src/main/java/com/yung/auto/framework/context/WorkContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/context/src/main/java/com/yung/auto/framework/context/WorkContextAutoConfigure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/context/src/main/java/com/yung/auto/framework/context/WorkContextFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-677">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/listener/DefaultLoggerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="56" column="19" lean-forward="false" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log-support/log-support.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -790,7 +982,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utility/src/main/resources/META-INF/clog.properties">
+    <entry file="file://$PROJECT_DIR$/log/log-support/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -798,15 +990,244 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/yung/auto/framework/demo/Application.java">
+    <entry file="file://$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/MetricsConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+        <state relative-caret-position="496">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/listener/MetricLoggerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/listener/LoggerListenerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-434">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/executor/LoggerThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="868">
+          <caret line="43" column="68" lean-forward="true" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/executor/MetricThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="68" column="1" lean-forward="false" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+          <folding>
+            <element signature="e#1049#1069#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/context/LoggerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/entity/EmptyLoggerEventImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/entity/LoggerEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1630">
+          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/entity/DefaultLoggerEventImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/enums/LoggerEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/enums/LoggerLevelEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/enums/LoggerSourceEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/formate/DefaultLoggerFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-248">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/formate/LoggerFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/LoggerConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/utils/LoggerUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1015">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/LoggerFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log-support/src/main/java/com/yung/auto/framework/log/logger/LoggerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-consumer/src/main/java/com/yung/auto/framework/kafka/consumer/MessageListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/google/guava/guava/20.0/guava-20.0.jar!/com/google/common/base/Stopwatch.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="74" column="16" lean-forward="false" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+          <folding>
+            <element signature="e#2007#2008#0" expanded="true" />
+            <element signature="e#2092#2093#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-redis/1.8.8.RELEASE/spring-data-redis-1.8.8.RELEASE.jar!/org/springframework/data/redis/connection/MessageListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar!/com/google/common/base/Stopwatch.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-consumer/src/main/java/com/yung/auto/framework/kafka/consumer/KafkaConsumerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1635">
+          <caret line="105" column="15" lean-forward="false" selection-start-line="105" selection-start-column="15" selection-end-line="105" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3786#3787#0" expanded="true" />
+            <element signature="e#3828#3829#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-consumer/src/main/java/com/yung/auto/framework/kafka/consumer/MessageEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-987">
+          <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-consumer/src/main/java/com/yung/auto/framework/kafka/consumer/TopicConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-consumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -814,31 +1235,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/redis.properties">
+    <entry file="file://$PROJECT_DIR$/kafka/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="845">
+          <caret line="29" column="47" lean-forward="false" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/yung/auto/framework/demo/DemoServlet.java">
+    <entry file="file://$PROJECT_DIR$/log/log-metric/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        <state relative-caret-position="561">
+          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cache/src/main/resources/META-INF/redis.properties">
+    <entry file="file://$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/MetricAggregateKey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-989">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cache/src/main/resources/META-INF/spring.factories">
+    <entry file="file://$PROJECT_DIR$/log/log-metric/src/main/java/com/yung/auto/framework/metric/aggregate/MetricAggregateManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -848,11 +1295,134 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="47" selection-end-column="21" />
+        <state relative-caret-position="837">
+          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/context/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1077">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="62">
+            <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>foundation</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
